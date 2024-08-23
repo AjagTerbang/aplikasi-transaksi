@@ -2,9 +2,11 @@ from toko.toko import Toko
 
 class Transaksi:
     def __init__(self):
+        # list produk
         self.transaksi_list = []
 
     def buat_transaksi(self, toko, id_produk, jumlah):
+        # Membuat Transaksi produk
         produk = toko.cari_produk(id_produk)
         if produk and produk.stok >= jumlah:
             produk.stok -= jumlah

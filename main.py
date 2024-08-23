@@ -10,11 +10,10 @@ def tampilkan_menu():
     print("4. Buat Transaksi")
     print("5. Tampilkan Daftar Transaksi")
     print("6. Keluar")
-# Membuat instance untuk toko dan transaksi
 def main():
     toko = Toko()
     transaksi = Transaksi()
-    # Menu interaktif untuk mengelola toko dan transaksi
+    # Menu Utama
     while True:
         tampilkan_menu()
         pilihan = input("Masukkan pilihan Anda: ")

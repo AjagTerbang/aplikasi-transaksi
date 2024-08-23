@@ -2,11 +2,11 @@ from produk.produk import Produk
 
 class Toko:
     def __init__(self):
-        # Menyimpan daftar produk
+        
         self.daftar_produk = []
 
     def tambah_produk(self, produk):
-         # Menambahkan produk baru ke daftar
+         # Menambahkan produk baru
         self.daftar_produk.append(produk)
 
     def hapus_produk(self, id):
